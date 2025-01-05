@@ -239,7 +239,7 @@ body{
 
 .our-team-card{
     background-color: var(--white);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px
 }
 
@@ -262,14 +262,14 @@ body{
     margin: 8px auto;
 }
 
-.social-media-icons{
+.social-media-list{
     display: flex;
     justify-content: center;
     gap: 24px;
     font-size: 16px;
 }
 
-.social-media-icons .sm-icon{
+.social-media-list .sm-icon{
     width: 40px;
     height: 40px;
 
@@ -283,6 +283,11 @@ body{
     height: 100%;
     background-color: var(--iris);
     border-radius: 50%;
+}
+
+.sm-link .social-media-icons {
+    fill: var(--navy-blue); /* Varsayılan renk */
+    transition: fill 0.3s ease; /* Renk geçiş efekti */
 }
 
 .sm-link:hover,.sm-link:focus{
