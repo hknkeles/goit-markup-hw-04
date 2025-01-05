@@ -256,17 +256,12 @@ body{
 }
 
 
-.social-media{
-    display: flex;
-    justify-content: center;
-    margin: 8px auto;
-}
-
 .social-media-list{
     display: flex;
     justify-content: center;
     gap: 24px;
     font-size: 16px;
+    margin: 8px auto;
 }
 
 .social-media-list .sm-icon{
@@ -286,7 +281,7 @@ body{
 }
 
 .sm-link .social-media-icons {
-    fill: var(--navy-blue); /* Varsayılan renk */
+    fill: var(--cloud); /* Varsayılan renk */
     transition: fill 0.3s ease; /* Renk geçiş efekti */
 }
 
