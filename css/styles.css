@@ -278,6 +278,7 @@ body{
     height: 100%;
     background-color: var(--iris);
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sm-link .social-media-icons {
